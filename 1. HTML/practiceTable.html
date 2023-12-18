@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice table</title>
+    <style>
+        table,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+            text-align: center;
+            caption-side: bottom;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col span="2" style="background-color: aqua;">
+            <col span="2" style="background-color:  lightgreen;">
+
+        </colgroup>
+        <tr>
+            <td>header</td>
+            <td>header</td>
+            <td>header</td>
+            <td>header</td>
+        </tr>
+        <tr>
+            <td rowspan="4">1</td>
+            <td colspan="3">2</td>
+        </tr>
+        <tr>
+            <td colspan="2">3</td>
+            <td rowspan="3">4</td>
+        </tr>
+        <tr>
+            <td rowspan="2">5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+        </tr>
+    </table>
+</body>
+</html>

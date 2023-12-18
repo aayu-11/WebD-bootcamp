@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+    <style>
+       
+        div{
+            display: inline-block;
+            height: 150px;
+            width: 150px;
+            background-color: aquamarine;
+            border: 1px solid black;
+        }
+        #box2{
+            position: absolute;
+            top: 100px;
+            left: 50px;
+        }
+        /* #box1{
+            position: fixed;
+        } */
+        #box3{
+            position: sticky;
+            left: 100px;
+        }
+        .wrapper{
+            background-color: yellowgreen;
+            width: 1000vw;
+            height: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="box" id="box1">A</div>
+    <div class="box" id="box2">B</div>
+    <div class="box" id="box3">C</div>
+    </div>
+    
+    </body>
+</html>

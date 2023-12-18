@@ -1,0 +1,20 @@
+.container{
+    height: 700px;
+    width: 700px;
+    border: 1px solid red;
+    background-color: yellow;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(2,100px);
+    justify-content: start;
+    align-items: center;
+    justify-items: center;
+}
+.box{
+    border: 1px solid green;
+    background-color: aquamarine;
+}
+#box1{
+    justify-self: start;
+}

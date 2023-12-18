@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .box{
+            position: relative;
+            height: 300px;
+            width: 600px;
+        }
+        .box>div{
+            background-color: aqua;
+        }
+        .img{
+            width: 600px;
+            height: 300px;
+            opacity: 0.5;
+        }
+        .top-right{
+            position: absolute;
+            right: 2px;
+            top: 2px;
+        }
+        .top-left{
+            position: absolute;
+            left: 2px;
+            top: 2px;
+        }
+        .center{
+            position: absolute;
+            top: 140px;
+            left:280px;
+        }
+        .bottom-left{
+            position: absolute;
+            bottom: 2px;
+            left: 2px;
+        }
+        .bottom-right{
+            position: absolute;
+            bottom: 2px;
+            right: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="img_5terre_wide.jpg" alt="box image" class="img">
+        <div class="top-left">Hello</div>
+        <div class="top-right">Hello</div>
+        <div class="center">Hello</div>
+        <div class="bottom-left">Hello</div>
+        <div class="bottom-right">Hello</div>
+    </div>
+</body>
+</html>
